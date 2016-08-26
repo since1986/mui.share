@@ -1,0 +1,62 @@
+.mui-share {
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background-color: #eee;
+    border-top: solid 1px #ccc;
+    box-shadow: 0px -5px 7px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s;
+    bottom: 0px;
+    -webkit-transform: translateY(400px);
+}
+
+.mui-share.mui-active {
+    -webkit-transform: translateY(0px);
+}
+
+.mui-android-5-1 .mui-share {
+    bottom: -300px;
+    -webkit-transition-property: bottom;
+    -webkit-transform: none;
+}
+
+.mui-android-5-1 .mui-share.mui-active {
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    -webkit-transform: none;
+}
+
+.mui-share-header {
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mui-share-clear {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    overflow: hidden;
+}
+
+.mui-share-body {
+    position: relative;
+    width: 100%;
+    border-top: solid 1px #ddd;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    padding: 10px 10px;
+    border: none;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object {
+    width: 50%;
+}
+
+.mui-grid-view.mui-grid-9 {
+    border: none;
+}
